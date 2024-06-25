@@ -1004,9 +1004,11 @@ button#pills-contact-tab::before {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
+/*  section 6 end */
+/*  section 7  start */
 
 .about-brand>img {
     filter: grayscale(1);
@@ -1037,12 +1039,329 @@ span.inner-aria:before {
 
 .section-7-first-side> h3 {
     font-size: clamp(20px, 3.2vw, 34px);
-    font-weight: 600;
+    font-weight: 700;
+    margin: 15px 0;
+    line-height: 1.3;
+    position: relative;
 }
-
+.section-7-first-side> h3::after {
+    position: absolute;
+    content: "\f025";
+    font-family: 'FontAwesome';
+    font-size: 80px;
+    right: 50px;
+    color: red;
+}
 .section-7-first-side> p {
     font-size: 14px;
     font-weight: 400;
     color: #6a6464;
+    width: 70%;
 }
-/*    section -----------6 end   */
+.section-7-first-side {
+    /* padding-left: 20px; */
+    box-shadow: rgb(0 0 0 / 9%) -4px 0px 5px;
+    /* padding-right: 20px; */
+    padding: 20px;
+}
+.section-7-mail-aria input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #dce3e3;
+    padding: 0 20px;
+    margin: 10px 0;
+    outline: none;
+}
+textarea.inner-text_aria {
+    outline: none;
+    resize: none;
+    height: 110px;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    background-color: #dce3e3;
+}
+.side-section-7{
+    background: #2b2929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-inner {
+    background-color: #2b2929;
+    text-align: center;
+    padding: 40px;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0px;
+    border: 5px dashed #7f7b7b;
+}
+.inner-icon i {
+    background: #fff;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: dotted red;
+    font-family: FontAwesome;
+    font-weight: 900;
+    color: red;
+    font-size: 40px;
+}
+.inner-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section-7-text> p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 2;
+}
+.section-7-imge> img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: 6px solid #fff;
+    object-fit: cover;
+}
+.section-7-imge>h4 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 15px;
+    margin: 0;
+}
+.section-7-imge>p {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.section-7-icons> i {
+    font-family: fontAwesome;
+    color: #e99637;
+    font-size: 20px;
+}
+/*    section -----------7 end   */
+
+/*    section -----------8 start   */
+.section-8 {
+    margin-top: 70px;
+}
+.card-4 {
+    background-color: #e2dfdf94;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.section-8-first-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2929;
+    padding-left: 40px;
+}
+
+.firt_side {
+    margin-top: 20px;
+}
+
+.section-8-heading>h4 {
+    font-size: 16px;
+    font-weight: 600;
+    height: 36px;
+    width: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.section-8-price> p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.section-8-price> p> span {
+    font-size: 16px;
+}
+
+.section-8-icon> i {
+    font-family: FontAwesome;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: -20px;
+    border: 2px dashed #d5b6b6;
+    color: red;
+}
+
+.section-8-second-side {
+    padding:  40px;
+}
+
+.section-8-second-side > p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #534e4e;
+    padding-left: 30px;
+    position: relative;
+}
+
+.section-8-second-side p:nth-child(2)::before {
+    position: absolute;
+    content: "\f057";
+    font-family: 'FontAwesome';
+    left: 0;
+}
+
+.section-8-second-side p::before {
+    position: absolute;
+    content: "\f058";
+    font-family: 'FontAwesome';
+    left: 0;
+}
+.section-8-slider {
+    position: relative;
+    margin: 40px 0;
+}   
+
+.swiper-pagination.secEight {
+    bottom: -50px;
+}
+.swiper-slide.swiper-slide-next .section-8-first-side {
+    background-color: red;
+    transition: 0.6s;
+}
+
+.swiper-slide.swiper-slide-next .section-8-icon> i {
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #2b2929;
+    transition: 0.6s;
+}
+/*    section -----------8 end   */
+
+
+/*    section -----------9 start   */
+.section-9{
+    margin: 100px 0;
+}
+
+
+.section-9-image> img {/* width: 350px; *//* height: 250px; */width: 100%;/* z-index: 99999999999; */border: 4px solid #fff;}
+
+.section-9-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2b2929;
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 10px 0;
+}
+
+.section-9-image {
+    margin-right: 6px;
+    width: clamp(212px,64.2vw,472px);
+    position: relative;
+    z-index: 0;
+}
+.section-9-image::before {
+    position: absolute;
+    content: "\f0d9";
+    font-family: 'FontAwesome';
+    color: red;
+    font-size: 120px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: -1px;
+    z-index: -1;
+}
+
+.section-9-text-aria {
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.section-9-text-aria> h4 {
+    font-size: clamp(16px, 3vw,20px);
+    color: #fff;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.section-9-email> input {height: 40px;width: 100%;border-radius: 20px;padding: 0 20px;overflow: hidden;}
+
+.section-9-email {
+    position: relative;
+    /* margin: 0 20px; */
+}
+.section-9-btn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.section-9-btn> button {
+    z-index: 111111111;
+    height: 40px;
+    width: clamp(30px,21.4vw,109px);
+    border: none;
+    border-radius: 20px;
+    background: red;
+    font-size: clamp(10px,3.2vw,16px);
+    color: #fff;
+}
+
+.images-9> img {
+    height: 50px;
+    width: 50px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    margin-right: -20px;
+}
+
+.images-9 {
+    margin: 20px 0;
+}
+
+.images-9> img:nth-child(1) {
+    border: none;
+}
+
+.images-9 span {
+    color: #fff;
+    margin-left: 30px;
+    position: relative;
+}
+.images-9 span i {
+    color: red;
+    font-size: 13px;
+}
+.section-9-inner-aria> p {
+    color: #fff;
+} 
+ .section-9-inner-aria> p>span {
+    color: red;
+} 
+
+.section-9-inner-aria> p>span>a {
+    color: red;
+} 
+ /*    section -----------9 end   */
